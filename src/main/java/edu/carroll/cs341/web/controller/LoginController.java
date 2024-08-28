@@ -19,8 +19,6 @@ public class LoginController {
     public LoginController(LoginService loginService) {
         this.loginService = loginService;
     }
-//    private static final String validUser = "cs341user";
-//    private static final String validPass = "supersecret";
 
     @GetMapping("/login")
     public String loginGet(Model model) {
